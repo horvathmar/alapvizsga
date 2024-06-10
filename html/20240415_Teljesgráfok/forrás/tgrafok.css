@@ -1,0 +1,38 @@
+body{
+  background-repeat: no-repeat; 
+  padding: 10px;
+  margin: 0px;
+  text-align: justify;
+}
+
+p:first-letter {
+  margin-left:15px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2, h3{
+  font-style: italic;
+}
+
+
+#jobbra{
+  float: right;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 0.7em;
+  color: #FF0000;
+}
+
+.kerdeskep{
+  float: left;
+  margin-right: 20px;
+}
+
+a{
+  color:red;
+}
