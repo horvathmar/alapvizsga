@@ -1,10 +1,12 @@
+#példa egy dátum használatos feladatra
+
 import datetime
 
-def current_time()-> list[int, int]:
-    hour = datetime.datetime.now().hour
-    minute = datetime.datetime.now().minute
-    return [hour, minute]
-current = current_time()
+def jelenlegi_ido()-> list[int, int]:
+    ora = datetime.datetime.now().hour
+    perc = datetime.datetime.now().minute
+    return [ora, perc]
+jelenlegi = jelenlegi_ido()
 
 
 
@@ -18,7 +20,7 @@ def beker(uzenet, min, max):
 ora = beker("Kérem adja meg az órát: ", 0,23)
 perc = beker("Kérem adja meg a percet: ", 0,59)
 ido = ora * 60 + perc
-aktualis_ido = current[0] * 60 + current[1]
+aktualis_ido = jelenlegi[0] * 60 + jelenlegi[1]
 
 
 if aktualis_ido > ido:
