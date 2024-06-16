@@ -8,9 +8,6 @@ def jelenlegi_ido()-> list[int, int]:
     return [ora, perc]
 jelenlegi = jelenlegi_ido()
 
-
-
-
 def beker(uzenet, min, max):
     valasz = int(input(f'{uzenet}: '))
     while valasz<min or valasz>max:
